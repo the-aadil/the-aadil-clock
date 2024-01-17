@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width: 100%;
+    
+}
+body{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    
+}
+
+.clock{
+    
+    height: 120px;
+    width: 500px;
+    margin-left: 410px;
+    margin-top: 242px;
+    box-shadow: rgba(0, 123, 255, 0.163) 0px 0px 0px 2px, rgba(255, 0, 0, 0.197) 0px 4px 6px -1px, rgba(208, 214, 255, 0.24) 0px 1px 0px inset;    
+}
+.clock .display{
+    
+    color: transparent;
+    font-size: 60px;
+    color: #ffffff;
+    letter-spacing: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 1rem; 
+    
+}
+.namecoderwrapper{
+    display: flex;
+    justify-content: end;
+    
+}
+.namecoder{
+    color: #ffffff;
+    width: auto;
+    font-size: 15px;
+    padding: 5px 10px;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    box-shadow: rgba(0, 123, 255, 0.163) 0px 0px 0px 2px, rgba(255, 0, 0, 0.197) 0px 4px 6px -1px, rgba(208, 214, 255, 0.24) 0px 1px 0px inset;    
+}
